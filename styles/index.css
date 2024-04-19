@@ -43,15 +43,161 @@ nav a{
     color: white;
     padding: 15px 35px;
 }
-/* Header Related Styles */
+            /* Header Related Styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .banner-profile-pic{
     width: 500px;
+
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.banner-desc{
+    margin: 10px 0;
+}
+.banner-content{
+    max-width: 500px;
+
+}
+/* The Main Section Sarts here */
+.about-me-container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.about-me-details{
+    padding-bottom: 20px;
+}
+.about-me-title{
+    padding-bottom: 20px;
+}
+.about-me-table td, th{
+    padding: 6px;
+}
+.about-me-table{
+    overflow: auto;
+}
+/* What I do starts here */
+.what-i-do-container{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.what-i-do-desc{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.what-i-do-title{
+    padding-bottom: 20px;
+}
+.what-i-do-card{
+    max-width: 250px;
+    line-height: 1.5;
+    text-align: justify;
+    box-shadow: 8px 8px 18px gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+.what-i-do-card h4{
+    padding: 20px 0;
+}
+.what-i-do-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Summary Section Starts here */
+.summary-section-container{
+    width: 800px;
+    margin: 50px auto;
+}
+.summary-section-container h1, h2, h3, h4{
+    padding-bottom: 20px;
+}
+.summary-section-cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-section-card{
+    max-width: 350px;
+}
+.summary-section-card p{
+    font-size: 16px;
+}
+.summary-section-hr{
+    margin: 20px;
+    width: 350px;
+}
+.my-educational-institution{
+    color: #555;
+}
+.summary-section-title{
+    text-align: center;
+}
+#download-data{
+    text-align: center;
+}
+/* Footer Section Starts HEre */
+.footer-container{
+    width: 100%;
+    background-color:#FFF8F3;
+}
+.footer-contents{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+.social-media-title, .social-media-desc, .social-media-icons{
+    padding-bottom: 15px;
+}
+.contact-form input, textarea{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+textarea:focus{
+    background-color: black;
+    color: white;
+    border: 1px solid orange;
+    font-size: 16px;
+}
+.contact-form input:focus{
+    background-color: black;
+    color: white;
+    border: 1px solid orange;
+    font-size: 16px;
+}
+.btn-form-submit{
+    margin-left: 10px;
+    cursor: pointer;
 }
